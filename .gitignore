@@ -5,4 +5,5 @@ cuda*
 
 
 **/*_model_params.pt
+**/*_checkpoint.pt
 !**/best_model_params.pt
