@@ -1,0 +1,8 @@
+/asl_alphabet_*
+asl-alphabet.zip
+
+cuda*
+
+
+**/*_model_params.pt
+!**/best_model_params.pt
