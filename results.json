@@ -1,1 +1,74 @@
-[{"Model": "resnext_adam", "Accuracy": 0.9364367816091954, "Average precision": 0.9791863560676575, "Average recall": 0.9373611211776733, "F1 scores": 0.9368597850075263, "AUC": 0.9987959265708923, "Averaging method": "macro"}, {"Model": "resnext_v1", "Accuracy": 0.9032183908045976, "Average precision": 0.9545217156410217, "Average recall": 0.9047935009002686, "F1 scores": 0.9035075390241163, "AUC": 0.996914267539978, "Averaging method": "macro"}, {"Model": "resnext_v2", "Accuracy": 0.9064367816091954, "Average precision": 0.958215594291687, "Average recall": 0.9077169895172119, "F1 scores": 0.9069467396434889, "AUC": 0.997215747833252, "Averaging method": "macro"}, {"Model": "mobilenet_adam", "Accuracy": 0.9622988505747126, "Average precision": 0.9906745553016663, "Average recall": 0.9626240730285645, "F1 scores": 0.9625908000394228, "AUC": 0.9995185732841492, "Averaging method": "macro"}, {"Model": "resnext_adam_finetune", "Accuracy": 0.9382758620689655, "Average precision": 0.9800105094909668, "Average recall": 0.9391729831695557, "F1 scores": 0.9388444362037345, "AUC": 0.9988579750061035, "Averaging method": "macro"}]
+[
+  {
+    "Model": "resnext_adam",
+    "Accuracy": 0.9364367816091954,
+    "Average precision": 0.9791863560676575,
+    "Average recall": 0.9373611211776733,
+    "F1 scores": 0.9368597850075263,
+    "AUC": 0.9987959265708923,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "resnext_v1",
+    "Accuracy": 0.9032183908045976,
+    "Average precision": 0.9545217156410217,
+    "Average recall": 0.9047935009002686,
+    "F1 scores": 0.9035075390241163,
+    "AUC": 0.996914267539978,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "resnext_v2",
+    "Accuracy": 0.9064367816091954,
+    "Average precision": 0.958215594291687,
+    "Average recall": 0.9077169895172119,
+    "F1 scores": 0.9069467396434889,
+    "AUC": 0.997215747833252,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "resnext_adam_finetune",
+    "Accuracy": 0.9382758620689655,
+    "Average precision": 0.9800105094909668,
+    "Average recall": 0.9391729831695557,
+    "F1 scores": 0.9388444362037345,
+    "AUC": 0.9988579750061035,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "mobilenet_adam_finetune_lrfinder",
+    "Accuracy": 0.04827586206896552,
+    "Average precision": 0.039291173219680786,
+    "Average recall": 0.049037132412195206,
+    "F1 scores": 0.019477105891142835,
+    "AUC": 0.5019114017486572,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "mobilenet_adam",
+    "Accuracy": 0.9619540229885057,
+    "Average precision": 0.9906711578369141,
+    "Average recall": 0.9622868299484253,
+    "F1 scores": 0.9622430585775066,
+    "AUC": 0.9995180368423462,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "mobilenet_adam_finetune",
+    "Accuracy": 0.9619540229885057,
+    "Average precision": 0.990574300289154,
+    "Average recall": 0.962324321269989,
+    "F1 scores": 0.962313182630118,
+    "AUC": 0.9995147585868835,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "mobilenet_adam_finetune_augment",
+    "Accuracy": 0.9502298850574713,
+    "Average precision": 0.9874727725982666,
+    "Average recall": 0.9504744410514832,
+    "F1 scores": 0.9506624592452468,
+    "AUC": 0.9993642568588257,
+    "Averaging method": "macro"
+  }
+]
