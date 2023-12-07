@@ -36,12 +36,12 @@
     "Averaging method": "macro"
   },
   {
-    "Model": "mobilenet_adam_finetune_lrfinder",
-    "Accuracy": 0.04827586206896552,
-    "Average precision": 0.039291173219680786,
-    "Average recall": 0.049037132412195206,
-    "F1 scores": 0.019477105891142835,
-    "AUC": 0.5019114017486572,
+    "Model": "mobilenet_adam_finetune_augment",
+    "Accuracy": 0.9502298850574713,
+    "Average precision": 0.9874727725982666,
+    "Average recall": 0.9504744410514832,
+    "F1 scores": 0.9506624592452468,
+    "AUC": 0.9993642568588257,
     "Averaging method": "macro"
   },
   {
@@ -59,16 +59,25 @@
     "Average precision": 0.990574300289154,
     "Average recall": 0.962324321269989,
     "F1 scores": 0.962313182630118,
-    "AUC": 0.9995147585868835,
+    "AUC": 0.9995148777961731,
     "Averaging method": "macro"
   },
   {
-    "Model": "mobilenet_adam_finetune_augment",
-    "Accuracy": 0.9502298850574713,
-    "Average precision": 0.9874727725982666,
-    "Average recall": 0.9504744410514832,
-    "F1 scores": 0.9506624592452468,
-    "AUC": 0.9993642568588257,
+    "Model": "mobilenet_adam_finetune_lrfinder",
+    "Accuracy": 0.9605747126436781,
+    "Average precision": 0.9907835125923157,
+    "Average recall": 0.9610069990158081,
+    "F1 scores": 0.9609183653633966,
+    "AUC": 0.999523937702179,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "mobilenet_adam_finetune_lrfinder_augment",
+    "Accuracy": 0.9391954022988506,
+    "Average precision": 0.9828770160675049,
+    "Average recall": 0.9394708871841431,
+    "F1 scores": 0.9397327789114253,
+    "AUC": 0.9991215467453003,
     "Averaging method": "macro"
   }
 ]
