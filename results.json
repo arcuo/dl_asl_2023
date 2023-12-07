@@ -79,5 +79,14 @@
     "F1 scores": 0.9397327789114253,
     "AUC": 0.9991215467453003,
     "Averaging method": "macro"
+  },
+  {
+    "Model": "mobilenet_v1",
+    "Accuracy": 0.9506896551724138,
+    "Average precision": 0.9852535724639893,
+    "Average recall": 0.9511618614196777,
+    "F1 scores": 0.9509541162142551,
+    "AUC": 0.9992160201072693,
+    "Averaging method": "macro"
   }
 ]
