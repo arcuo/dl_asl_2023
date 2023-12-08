@@ -88,5 +88,23 @@
     "F1 scores": 0.9509541162142551,
     "AUC": 0.9992160201072693,
     "Averaging method": "macro"
+  },
+  {
+    "Model": "mobilenet_adam_finetune_gauss_noise",
+    "Accuracy": 0.9349425287356322,
+    "Average precision": 0.9804967045783997,
+    "Average recall": 0.935652494430542,
+    "F1 scores": 0.9354609469449564,
+    "AUC": 0.9989866018295288,
+    "Averaging method": "macro"
+  },
+  {
+    "Model": "mobilenet_adam_finetune_erase_gauss_warmup",
+    "Accuracy": 0.9702298850574713,
+    "Average precision": 0.9950853586196899,
+    "Average recall": 0.9706776142120361,
+    "F1 scores": 0.9706141670815686,
+    "AUC": 0.9997860193252563,
+    "Averaging method": "macro"
   }
 ]
