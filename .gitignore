@@ -1,4 +1,5 @@
-/asl_alphabet_*
+/asl_alphabet_train
+/asl_alphabet_test
 asl-alphabet.zip
 
 cuda*
