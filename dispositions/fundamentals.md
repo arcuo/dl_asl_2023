@@ -8,13 +8,15 @@ Draw a line that best fits the data.
 
 For linear regression, choose a parameter $w_1$ such that $y = w_1 x$
 
-### Loss functions
-
 The linear model
 
 $$
 h_w(x) = \sum_{j = 1}^m w_jx_j = w^Tx
 $$
+
+We can also use polynomial regression where $h_w(x) = \sum_{j = 1}^m w_jx_j^j$.
+
+### Loss functions
 
 We want to choose a linear model such that $h_w(x^{(i)}) \approx y^{(i)}$ is as close to the training output $y^{(i)}$ for each training example $i$ as possible.
 
@@ -68,6 +70,10 @@ q = \frac{1}{2} p^2\\
 \frac{\partial q}{\partial p} = p\\
 \frac{\partial q}{\partial x} = \frac{\partial q}{\partial p} \frac{\partial p}{\partial x} = xp = x(wx-y)
 $$
+
+Gradient descent is not fast and only guaranteed to find a local minimum. You can use different strategies to improve the performance.
+
+ - Momentum - Accelerates gradient descent in the right direction and dampens oscillations when we are close to the minimum.
 
 ### Hyperparameters
 
