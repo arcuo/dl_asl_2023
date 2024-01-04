@@ -27,7 +27,7 @@ $$
 
 #### Perceptron
 
-A neuron that takes a vector of inputs $x$ and weights $w$ and outputs a single value $y$ dependent on a bias $\theta$.
+Simulates a human neuron that takes a vector of inputs $x$ and weights $w$ and outputs a single value $y$ dependent on a bias $\theta$.
 
 $$
 y = 1 \text{ if } \sum_{i=1}^n w_i \cdot x_i - \theta \geq 0 \text{ else } 0\\
@@ -169,7 +169,8 @@ Let $L$ denote the number of layers in the network.
 $$
 \begin{align*}
     \delta^{(L)} &= (a^{(L)} - y^{(k)}) \odot \sigma'(z^{(L)})\\
-    \delta^{(l)} &= ((W^{(l)})^T \delta^{(l+1)}) \odot \sigma'(z^{(l)})
+    \delta^{(l)} &= ((W^{(l)})^T \delta^{(l+1)}) \odot \sigma'(z^{(l)})\\
+    \sigma'(z^{(l)}) &= \sigma(z^{(l)}) \odot (1 - \sigma(z^{(l)})) = a^{(l)} \odot (1 - a^{(l)}) & \text{is the derivate of the sigmoid function}\\
 \end{align*}
 $$
 
