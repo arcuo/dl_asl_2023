@@ -130,7 +130,22 @@ ResNet solves this by using **skip connections**. The output of a layer is added
 
 ### MobileNet
 
-Depthwise Separable Convolution
+Depthwise Separable Convolution.
+
+#### Spatial separable convolution
+
+For a 3x3 kernel, first apply a convolution with a 3x1 kernel, then a convolution with a 1x3 kernel.
+
+This reduces the number of multiplications, thus reducing computational cost.
+
+#### Depthwise separable convolution
+
+For a 3x3 kernel, first apply a 3x3x1 convolution for each channel, then apply a 1x1x3 convolution to combine the channels.
+
+The apply a 1x3 convolution to combine the channels.
+
+![](images/depthwise_conv.png)
+
 
 ### U-Net
 
